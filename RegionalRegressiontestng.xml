@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- RUNNING ONLY THE PARTICULAR TEST METHOD GIVEN IN THE METHODS TAG-->
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="organizations.CreateOrganization">
+      <methods>
+      <include name="createOrganizaion"></include>
+      </methods>
+       </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
