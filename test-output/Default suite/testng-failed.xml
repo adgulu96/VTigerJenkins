@@ -3,9 +3,8 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="products.CreateProduct">
+      <class name="campaigns.CreateCampaign">
         <methods>
-          <include name="createProduct"/>
           <include name="afterClass"/>
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
@@ -13,9 +12,10 @@
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="beforeClass"/>
+          <include name="createCampaign"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- products.CreateProduct -->
+      </class> <!-- campaigns.CreateCampaign -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
